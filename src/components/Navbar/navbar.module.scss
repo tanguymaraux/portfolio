@@ -1,0 +1,32 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    position: fixed;
+    bottom: 4vh;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: min-content;
+        font-size: 2.5vh;
+        font-family: 'Navine';
+        text-decoration: none;
+        color: #bfcee5;
+        transition: 300ms ease-out;
+        padding: 1vh 2vh 1vh 6vh;
+        height: 3vh;
+    }
+
+    a:hover {
+        background-color: #62b6cb;
+        font-size: 3.2vh;
+        border: 1px solid #bfcee5;
+    }
+}

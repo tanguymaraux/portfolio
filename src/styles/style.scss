@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    div, h1, h2, h3 {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@font-face {
+    font-family: 'Eastman-ExtraBold';
+    src: url('../assets/font/Eastman-Grotesque-Extrabold-trial.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Navine';
+    src: url('../assets/font/NavineDemo-SemiCondensed\ .ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'GilroyL';
+    src: url('../assets/font/Gilroy-Light.otf') format('opentype');
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #bfcee5; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #333333; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #62b6cb; 
+}
