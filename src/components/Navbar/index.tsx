@@ -5,7 +5,7 @@ import styles from './navbar.module.scss';
 export default function Navbar() {
     return (
         <div className={styles.navbar}>
-            <Fade cascade damping={0.2}>
+            <Fade cascade damping={0.2} triggerOnce delay={5000}>
                 <a href="#home" id="home_b">Home</a>
                 <a href="#about" id="about_b">About</a>
                 <a href="#technologies" id="tech_b">Technologies</a>

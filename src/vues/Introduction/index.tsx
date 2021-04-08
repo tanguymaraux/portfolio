@@ -1,4 +1,4 @@
-import { Bounce } from "react-awesome-reveal";
+import { Bounce, Fade } from "react-awesome-reveal";
 import styles from './introduction.module.scss';
 
 function Introduction() {
@@ -47,13 +47,15 @@ function Introduction() {
 
                     <div className={styles.card}>
                         <a href="#about">
-                            <div className={styles.scroll}>
-                                    <label>Scroll</label>
+                            <Fade triggerOnce delay={5000}>
+                                <div className={styles.scroll}>
+                                        <label>Scroll</label>
 
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                            </div>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                </div>
+                            </Fade>
                         </a>
                     </div>
                 </div>

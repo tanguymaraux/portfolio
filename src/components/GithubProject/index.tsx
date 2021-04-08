@@ -9,12 +9,11 @@ type Props = {
     url:string,
     stars:number,
     forks:number,
-    langage:string
+    language:string
 }
 
-// TODO: fix image langage
-
 export default function GithubProjet(props:Props) {
+    const icon = require("../../assets/icons/" + props.language.toLowerCase() + ".svg")
     return (
         <div className="project">
             <a href={props.url}>
@@ -22,7 +21,7 @@ export default function GithubProjet(props:Props) {
                     <img src={github} alt="github"/>
                 </div>
                 <div className="header_project">
-                    <img src={"../../assets/icons/" + props.langage /* TODO: .toLowerCase()*/ + ".svg"} alt={props.langage}/>
+                    <img src={icon.default} alt={props.language}/>
                     <h1>{props.name}</h1>
                 </div>
 

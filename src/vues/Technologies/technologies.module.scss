@@ -1,5 +1,5 @@
 .content {
-    height: 60vh;
+    height: auto;
     background-color: #62b6cb;
     display: flex;
     flex-direction: column;
@@ -24,11 +24,12 @@
 
     .list {
         margin-top: 3vh;
+        margin-bottom: 4vh;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
-        height: 40vh;
-        width: 80vh;
+        height: 40%;
+        width: 60%;
     }
 }

@@ -9,13 +9,13 @@ import Tech from '../../vues/Technologies'
 export default function Home () {
     return(
        <div>
-           <Header/>
-           <Navbar/>
-           <Intro/>
-           <About/>
-           <Tech/>
-           <Github/>
-           <Footer/>
+            <Header/>
+            <Navbar/>
+            <Intro/>
+            <About/>
+            <Tech/>
+            <Github/>
+            <Footer/>
        </div>  
     )
 }
