@@ -18,7 +18,7 @@ html {
         font-size: 2.5vh;
         font-family: 'Navine';
         text-decoration: none;
-        color: #bfcee5;
+        color: rgb(233, 233, 233);
         transition: 300ms ease-out;
         padding: 1vh 2vh 1vh 6vh;
         height: 3vh;
@@ -27,6 +27,6 @@ html {
     a:hover {
         background-color: #62b6cb;
         font-size: 3.2vh;
-        border: 1px solid #bfcee5;
+        border: 1px solid rgb(233, 233, 233);
     }
 }

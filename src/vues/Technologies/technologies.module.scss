@@ -1,4 +1,34 @@
 .content {
-    height: 40vh;
+    height: 60vh;
     background-color: #62b6cb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1, h2 {
+        width: 100%;
+        color: rgb(233, 233, 233);
+        font-family: 'GilroyL';
+        text-align: center;
+    }
+
+    h1 {
+        padding-top: 3vh;
+        font-size: 5vh;
+    }
+
+    h2 {
+        padding-top: 1vh;
+        font-size: 3vh;
+    }
+
+    .list {
+        margin-top: 3vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        height: 40vh;
+        width: 80vh;
+    }
 }

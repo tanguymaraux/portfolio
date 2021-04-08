@@ -1,3 +1,6 @@
+import fork from '../../assets/icons/fork.svg'
+import github from '../../assets/icons/github.svg'
+import star from '../../assets/icons/star.svg'
 import "./githubproject.scss"
 
 type Props = {
@@ -9,11 +12,35 @@ type Props = {
     langage:string
 }
 
+// TODO: fix image langage
+
 export default function GithubProjet(props:Props) {
     return (
         <div className="project">
-            <p>{props.name}</p>
-            <p>{props.description}</p>
+            <a href={props.url}>
+                <div className="githubgimg_project">
+                    <img src={github} alt="github"/>
+                </div>
+                <div className="header_project">
+                    <img src={"../../assets/icons/" + props.langage /* TODO: .toLowerCase()*/ + ".svg"} alt={props.langage}/>
+                    <h1>{props.name}</h1>
+                </div>
+
+                <div className="description_project">
+                    <p>{props.description}</p>
+                </div>
+
+                <div className="footer_project">
+                    <div className="star_project">
+                        <img src={star} alt="star"/>
+                        <h3>{props.stars}</h3>
+                    </div>
+                    <div className="fork_project">
+                        <img src={fork} alt="fork"/>
+                        <h3>{props.forks}</h3>
+                    </div>
+                </div>
+            </a>
         </div>
     )
 }
