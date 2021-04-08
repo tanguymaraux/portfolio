@@ -1,0 +1,10 @@
+version: '3.1'
+services:
+  portfolio:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: "portfolio"
+    ports:
+      - 10000:80
+    restart: always
