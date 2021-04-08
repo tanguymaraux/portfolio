@@ -16,7 +16,7 @@ export default function GithubProjet(props:Props) {
     const icon = require("../../assets/icons/" + props.language.toLowerCase() + ".svg")
     return (
         <div className="project">
-            <a href={props.url}>
+            <a href={props.url} target="_blank" rel="noreferrer">
                 <div className="githubgimg_project">
                     <img src={github} alt="github"/>
                 </div>

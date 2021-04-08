@@ -1,4 +1,4 @@
-import github from '../../assets/icons/github.svg'
+import github from '../../assets/icons/github_footer.svg'
 import heart from '../../assets/icons/heart.svg'
 import insta from '../../assets/icons/insta.svg'
 import linkedin from '../../assets/icons/linkedin.svg'
