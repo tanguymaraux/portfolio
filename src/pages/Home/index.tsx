@@ -1,10 +1,10 @@
 import Footer from '../../components/Footer'
 import Header from '../../components/Header'
 import Navbar from '../../components/Navbar'
-import About from '../../vues/About'
-import Github from '../../vues/Github'
-import Intro from '../../vues/Introduction'
-import Tech from '../../vues/Technologies'
+import About from '../../views/About'
+import Github from '../../views/Github'
+import Intro from '../../views/Introduction'
+import Tech from '../../views/Technologies'
 
 export default function Home () {
     return(
