@@ -4,9 +4,9 @@
     height: 25vh;
     margin-bottom: 5vh;
     margin-right: 2vh;
-    border-radius: 10px;
+    border-radius: 2vh;
     transition: 500ms ease;
-    box-shadow: 4px 8px 6px #888888;
+    box-shadow: 0.4vh 0.8vh 1vh #3d3d3d;
     * {
         text-decoration: none;
     }
@@ -37,7 +37,7 @@
             justify-content: center;
             align-items: center;
             width: 30vh;
-            border-bottom: 2px solid #62b6cb;
+            border-bottom: 0.3vh solid #62b6cb;
         }
     
         .header_project {

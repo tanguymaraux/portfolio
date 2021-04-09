@@ -29,7 +29,7 @@ export default function Technologies() {
                     <h2>that I know or am learning and using</h2>
                 </Fade>
                 <div className={styles.list}>
-                    <Bounce cascade damping={0.1}>
+                    <Bounce cascade damping={0.04}>
                         <Tech link={shell} alt={"shell"}/>
                         <Tech link={linux} alt={"linux"}/>
                         <Tech link={git} alt={"git"}/>
