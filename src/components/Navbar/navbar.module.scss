@@ -29,4 +29,22 @@ html {
         font-size: 3.2vh;
         border: 0.1vh solid rgb(233, 233, 233);
     }
+
+    .icon {
+        display: none;
+        background-color: transparent;
+        color: transparent;
+        border: none;
+        cursor: pointer;
+        margin-left: 2vh;
+        margin-top: 2vh;
+        width: 2vh;
+    }
+
+    @media screen and (max-width: 768px) {
+        .topnav.responsive {position: relative;}
+        .icon {
+          display: block;
+        }
+    }
 }
