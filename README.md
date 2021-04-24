@@ -1,4 +1,4 @@
-This is my personnal [portfolio website](https://tanguymaraux.com)
+This is my personal [portfolio website](https://tanguymaraux.com)
 
 ## Docker
 ```
