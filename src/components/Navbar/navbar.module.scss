@@ -9,6 +9,7 @@ html {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    z-index: 1;
 
     a {
         display: flex;
@@ -42,9 +43,15 @@ html {
     }
 
     @media screen and (max-width: 768px) {
-        .topnav.responsive {position: relative;}
+        a {
+            text-shadow: 0.1vh 0.1vh #3f3f3f;
+        }
+        .topnav.responsive {
+            position: relative;
+        }
+
         .icon {
-          display: block;
+            display: block;
         }
     }
 }

@@ -1,6 +1,6 @@
 import { keyframes } from "@emotion/react";
 import Reveal from "react-awesome-reveal";
-import pic from '../../assets/RoundPic_template.png';
+import pic from '../../assets/RoundPic.png';
 import styles from './about.module.scss';
 
 const animationPic = keyframes`
