@@ -24,7 +24,7 @@ export default function Footer() {
                 <div className={styles.social}>
                     <a href="mailto:tanguy.maraux@gmail.com"><img src={mail} alt="mail"/></a>
                     <a href="https://www.linkedin.com/in/tanguy-maraux-1555041b0" target="_blank" rel="noreferrer"><img src={linkedin} alt="linkedin"/></a>
-                    <a href="https://github.com/Pilpur/" target="_blank" rel="noreferrer"><img src={github} alt="github"/></a>
+                    <a href="https://github.com/tanguymaraux/" target="_blank" rel="noreferrer"><img src={github} alt="github"/></a>
                     <a href="https://www.instagram.com/guytanlalegende/" target="_blank" rel="noreferrer"><img src={insta} alt="insta"/></a>
                     <a href="https://twitter.com/Guytanlalegende" target="_blank" rel="noreferrer"><img src={twitter} alt="twitter"/></a>
                 </div>
