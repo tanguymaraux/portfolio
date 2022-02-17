@@ -8,7 +8,7 @@ export default function Github() {
     const [projects, setProjects] = useState<Array<any>>(new Array<any>());
 
     function fetchProjects(index:any) {
-        axios.get(`https://api.github.com/users/Pilpur/repos?page=${index}`).then(r=>{
+        axios.get(`https://api.github.com/users/tanguymaraux/repos?page=${index}`).then(r=>{
             console.log(r.data);
             setProjects(d => [...d, ...r.data]);
             if(r.data.length === 30)
@@ -30,7 +30,7 @@ export default function Github() {
                     {
                     projects && projects.sort(
                         (a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime())
-                        .map((project:any) => (project.language && project.name !== "Pilpur")? 
+                        .map((project:any) => (project.language && project.name !== "tanguymaraux")? 
                         <JackInTheBox cascade damping={0.3} triggerOnce>
                             <GithubProject 
                             name={project.name} 
