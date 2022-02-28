@@ -34,12 +34,17 @@ function Introduction() {
                         <div className={styles.line}>
                             <div className={styles.word}>
                                 <Bounce cascade triggerOnce damping={0.05} delay={1800}>
-                                    <h1>F</h1><h1>u</h1><h1>l</h1><h1>l</h1><h1>S</h1><h1>t</h1><h1>a</h1><h1>c</h1><h1>k</h1>
+                                    <h1>F</h1><h1>r</h1><h1>e</h1><h1>n</h1><h1>c</h1><h1>h</h1>
                                 </Bounce>
                             </div>
                             <div className={styles.word}>
-                                <Bounce cascade triggerOnce damping={0.05} delay={2300}>
-                                    <h1>d</h1><h1>e</h1><h1>v</h1><h1>.</h1>
+                                <Bounce cascade triggerOnce damping={0.05} delay={2200}>
+                                    <h1>I</h1><h1>T</h1>
+                                </Bounce>                                    
+                            </div>
+                            <div className={styles.word}>
+                                <Bounce cascade triggerOnce damping={0.05} delay={2310}>
+                                    <h1>s</h1><h1>t</h1><h1>u</h1><h1>d</h1><h1>e</h1><h1>n</h1><h1>t</h1>
                                 </Bounce>                                    
                             </div>
                         </div>
@@ -47,7 +52,7 @@ function Introduction() {
 
                     <div className={styles.card}>
                         <a href="#about">
-                            <Fade triggerOnce delay={5000}>
+                            <Fade triggerOnce delay={3000}>
                                 <div className={styles.scroll}>
                                         <label>Scroll</label>
 

@@ -33,3 +33,11 @@
         width: 60%;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .content {
+        .list{
+            width: 90%;
+        }
+    }       
+}

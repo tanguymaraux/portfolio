@@ -17,7 +17,7 @@ export default function Navbar() {
     return (
         <div className={styles.navbar}>
            { matches||isActive ? 
-            <Fade cascade damping={0.2} triggerOnce>
+            <Fade cascade damping={0.2} triggerOnce delay={3000}>
                 <a href="#home" id="home_b">Home</a>
                 <a href="#about" id="about_b">About</a>
                 <a href="#technologies" id="tech_b">Technologies</a>
