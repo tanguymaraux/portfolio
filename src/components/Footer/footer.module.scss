@@ -33,6 +33,10 @@
             }
         }
     }
+
+    .hearts {
+        transform: translate(0, 5vh);
+    }
     
     h1 {
         color: #bfcee5;
@@ -48,7 +52,8 @@
 
         img {
             margin-top: 3vh;
-            margin-right: 2vh;
+            margin-right: 1vh;
+            margin-left: 1vh;
             width: 5vh;
             path {
                 color: white;

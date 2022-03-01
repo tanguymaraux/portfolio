@@ -19,7 +19,7 @@ export default function Footer() {
                     </div>
                 </div>
                 
-                <h1>Made with <img src={heart} alt="heart"/> by Tanguy Maraux</h1>
+                <h1>Made with <img src={heart} alt="heart" className={styles.heart}/> by Tanguy Maraux</h1>
 
                 <div className={styles.social}>
                     <a href="mailto:tanguy.maraux@gmail.com"><img src={mail} alt="mail"/></a>
