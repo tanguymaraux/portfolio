@@ -1,4 +1,4 @@
-FROM node:slim as builder
+FROM node:12-slim as builder
 
 WORKDIR /app
 COPY package.json package.json
