@@ -31,7 +31,7 @@ export default function About() {
             <div className={styles.content}>
                 <div className={styles.txtdiv}>
                   <Reveal cascade triggerOnce damping={0.05} keyframes={animationTxt} delay={300}>
-                      <p>Hello, I'm Tanguy Maraux, a french IT student in 3rd year at <a href="https://www.epita.fr/en" target="_blank" rel="noreferrer">Epita</a>. I develop computer science projects in my free time to improve my skills and learn new things. Besides that, I like to go out with friends and talk about life around a beer. I am also passionate about music and I play the piano and the guitar that I learned by myself.</p>
+                      <p>Hello, I'm Tanguy Maraux, a french IT student in cybersecurity at <a href="https://www.epita.fr/en" target="_blank" rel="noreferrer">Epita</a>. I develop computer science projects in my free time to improve my skills and learn new things. Besides that, I like to go out with friends and talk about life around a beer. I am also passionate about music and I play the piano and the guitar that I learned by myself.</p>
                   </Reveal>
                 </div>
 
