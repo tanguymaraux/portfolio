@@ -35,7 +35,7 @@ export default function Navbar() {
                 Contact
               </a>
               <a
-                href="https://files.tanguymaraux.com/api/public/dl/_tosO_Eh?inline=true"
+                href="https://files.tanguymaraux.com/share/gUBY11nZ?inline=true"
                 target="_blank"
                 rel="noreferrer"
               >
