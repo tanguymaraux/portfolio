@@ -25,7 +25,7 @@ export default function Footer() {
                     <a href="mailto:tanguy.maraux@gmail.com"><img src={mail} alt="mail"/></a>
                     <a href="https://www.linkedin.com/in/tanguy-maraux" target="_blank" rel="noreferrer"><img src={linkedin} alt="linkedin"/></a>
                     <a href="https://github.com/tanguymaraux/" target="_blank" rel="noreferrer"><img src={github} alt="github"/></a>
-                    <a href="https://www.instagram.com/guytanlalegende/" target="_blank" rel="noreferrer"><img src={insta} alt="insta"/></a>
+                    <a href="https://www.instagram.com/guytan.shots/" target="_blank" rel="noreferrer"><img src={insta} alt="insta"/></a>
                     <a href="https://twitter.com/Guytanlalegende" target="_blank" rel="noreferrer"><img src={twitter} alt="twitter"/></a>
                 </div>
             </div>
