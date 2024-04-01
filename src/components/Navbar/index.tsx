@@ -34,6 +34,9 @@ export default function Navbar() {
               <a href="#footer" id="contact_b">
                 Contact
               </a>
+              <a href="https://photos.tanguymaraux.com" target="_blank" rel="noreferrer">
+                Photos
+              </a>
               <a
                 href="https://files.tanguymaraux.com/api/public/dl/gUBY11nZ?inline=true"
                 target="_blank"
